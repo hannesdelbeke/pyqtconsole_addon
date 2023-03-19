@@ -20,3 +20,5 @@ a Blender add-on wrapper for [pyqtconsole](https://github.com/pyqtconsole/pyqtco
 ## Discussions
 - https://blenderartists.org/t/python-console/1455836
 - https://www.reddit.com/r/blender/comments/11vljhn/free_addon_python_consoles/
+
+plugget [package](https://github.com/hannesdelbeke/plugget-pkgs/blob/main/blender/pyqtconsole_addon/latest.json)
