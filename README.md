@@ -1,5 +1,6 @@
 # pyqtconsole_addon
 a Blender add-on wrapper for [pyqtconsole](https://github.com/pyqtconsole/pyqtconsole), a Python Qt-based console.
+![image](https://user-images.githubusercontent.com/3758308/226176132-224c5290-4f54-42c9-945a-55eaa89fc6a6.png)
 
 
 ## Installation
