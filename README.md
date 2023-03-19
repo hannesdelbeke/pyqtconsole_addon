@@ -12,4 +12,4 @@ a Blender add-on wrapper for [pyqtconsole](https://github.com/pyqtconsole/pyqtco
     - Ensure you use the pip in the blender folder
     - and [target](https://pip.pypa.io/en/stable/cli/pip_install/#:~:text=%2Dt%2C-,%2D%2Dtarget,-%3Cdir%3E%23) a blender modules folder
   - or use the [blender pip add-on](https://github.com/amb/blender_pip) and install `pyqtconsole`
-  - or manyally paste the python module from [pyqtconsole](https://github.com/pyqtconsole/pyqtconsole) in a blender modules folder. e.g. `addons/modules`
+  - or manually paste the python module from [pyqtconsole](https://github.com/pyqtconsole/pyqtconsole) in a blender modules folder. e.g. `addons/modules`
