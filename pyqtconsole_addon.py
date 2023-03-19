@@ -5,7 +5,7 @@ bl_info = {
     "version": (1, 0),
     "blender": (2, 91, 0),
     "location": "Window/Python Console (Qt)",
-    "category": "Development"
+    "category": "Development",
 }
 
 import sys
@@ -18,12 +18,12 @@ class PyQtConsolePreferences(bpy.types.AddonPreferences):
     def draw(self, context):
         layout = self.layout
         row = layout.row()
-        row.operator("wm.open_pyqt_console", text="Open Python Console (Qt)")
+        row.operator("wm.open_pyqt_console", text="New Python Console (Qt)")
 
 
 class OpenPyQtConsoleOperator(bpy.types.Operator):
     bl_idname = "wm.open_pyqt_console"
-    bl_label = "Python Console (Qt)"
+    bl_label = "New Python Console"
     bl_icon = 'CONSOLE'
     console_widget = None
 
