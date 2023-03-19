@@ -16,3 +16,7 @@ a Blender add-on wrapper for [pyqtconsole](https://github.com/pyqtconsole/pyqtco
     - and [target](https://pip.pypa.io/en/stable/cli/pip_install/#:~:text=%2Dt%2C-,%2D%2Dtarget,-%3Cdir%3E%23) a blender modules folder
   - or use the [blender pip add-on](https://github.com/amb/blender_pip) and install `pyqtconsole`
   - or manually paste the python module from [pyqtconsole](https://github.com/pyqtconsole/pyqtconsole) in a blender modules folder. e.g. `addons/modules` & install the dependencies `qtpy` & `jedi` yourself 
+
+## Discussions
+- https://blenderartists.org/t/python-console/1455836
+- https://www.reddit.com/r/blender/comments/11vljhn/free_addon_python_consoles/
