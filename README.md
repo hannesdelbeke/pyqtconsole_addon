@@ -3,7 +3,10 @@ a Blender add-on wrapper for [pyqtconsole](https://github.com/pyqtconsole/pyqtco
 ![image](https://user-images.githubusercontent.com/3758308/226176132-224c5290-4f54-42c9-945a-55eaa89fc6a6.png)
 
 
+
 ## Installation
+- ensure you have either PySide2 or PyQt5 installed. (PySide2 recommended)
+- OPTIONAL: I recommend to install the addon [bqt](https://github.com/techartorg/bqt) to keep the console correctly in the foreground. (Uses PySide2)
 - Install this add-on (the .py file), 
   - either put it in an add-on folder, 
   - or install through `Edit/Preferences... (menu) -> add-ons (tab) -> Install (button)`
