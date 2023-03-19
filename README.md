@@ -4,4 +4,4 @@ a Blender add-on wrapper for [pyqtconsole](https://github.com/pyqtconsole/pyqtco
 
 ## Installation
 - install this addon
-- pip install the python module pyqtconsole in your blender modules folder. ensure you use blender pip, and target a blender modules folder
+- pip install the python module [pyqtconsole](https://pypi.org/project/pyqtconsole/) in your [blender modules](https://docs.blender.org/manual/en/latest/advanced/blender_directory_layout.html) folder. ensure you use blender pip, and target a blender modules folder
