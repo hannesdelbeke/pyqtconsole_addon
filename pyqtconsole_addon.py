@@ -24,6 +24,7 @@ class PyQtConsolePreferences(bpy.types.AddonPreferences):
 class OpenPyQtConsoleOperator(bpy.types.Operator):
     bl_idname = "wm.open_pyqt_console"
     bl_label = "Python Console (Qt)"
+    bl_icon = 'CONSOLE'
     console_widget = None
 
     def execute(self, context):
@@ -69,7 +70,7 @@ class OpenPyQtConsoleOperator(bpy.types.Operator):
 
 
 def menu_func(self, context):
-    self.layout.operator(OpenPyQtConsoleOperator.bl_idname)
+    self.layout.operator(OpenPyQtConsoleOperator.bl_idname, icon=OpenPyQtConsoleOperator.bl_icon)
 
 
 def register():
