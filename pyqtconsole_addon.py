@@ -27,11 +27,15 @@ class OpenPyQtConsoleOperator(bpy.types.Operator):
     console_widget = None
 
     def execute(self, context):
-        
+        from qtpy import QtCore
         from qtpy.QtWidgets import QApplication
         from pyqtconsole.console import PythonConsole
         from pyqtconsole.highlighter import format
-    
+
+        app = QApplication.instance()
+        if not app:
+            app = QApplication(sys.argv)
+
         # hookup bqt if found to keep in foreground
         parent = None
         if hasattr(app, 'blender_widget'):
@@ -53,10 +57,10 @@ class OpenPyQtConsoleOperator(bpy.types.Operator):
             }, 
             parent=parent)
 
-        if not QApplication.instance():
-            app = QApplication(sys.argv)
 
         console.setStyleSheet("QWidget {background-color:#222222}")
+        console.setWindowFlags(console.windowFlags() | QtCore.Qt.Tool)
+        console.setWindowTitle("Python Console")
         console.show()
 
         console.eval_queued()
